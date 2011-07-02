@@ -1,0 +1,4 @@
+The goal of these scripts is to test a set of mod_rewrites to make sure they set the correct device class (tablet, feature, smart, desktop) for the device visiting a particular home page. The device class is saved in an environment variable and a cookie. Both are checked.
+
+The mod_rewrite rules are adapted from: http://detectmobilebrowser.com/
+The list of mobile device user agent strings comes from: http://www.zytrax.com/tech/web/mobile_ids.html
